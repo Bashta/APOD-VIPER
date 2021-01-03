@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2628AD3325A257F10056A2AF /* APOD_VIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628AD3225A257F10056A2AF /* APOD_VIPERApp.swift */; };
+		2628AD3325A257F10056A2AF /* APODApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628AD3225A257F10056A2AF /* APODApp.swift */; };
 		2628AD3525A257F10056A2AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628AD3425A257F10056A2AF /* ContentView.swift */; };
 		2628AD3725A257F20056A2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2628AD3625A257F20056A2AF /* Assets.xcassets */; };
 		2628AD3A25A257F20056A2AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2628AD3925A257F20056A2AF /* Preview Assets.xcassets */; };
@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		2628AD2F25A257F10056A2AF /* APOD-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APOD-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2628AD3225A257F10056A2AF /* APOD_VIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOD_VIPERApp.swift; sourceTree = "<group>"; };
+		2628AD3225A257F10056A2AF /* APODApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODApp.swift; sourceTree = "<group>"; };
 		2628AD3425A257F10056A2AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2628AD3625A257F20056A2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2628AD3925A257F20056A2AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,7 +95,9 @@
 		2628AD3125A257F10056A2AF /* APOD-VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				2628AD3225A257F10056A2AF /* APOD_VIPERApp.swift */,
+				2628AD6125A2598D0056A2AF /* Sources */,
+				2628AD6025A259760056A2AF /* Assets */,
+				2628AD3225A257F10056A2AF /* APODApp.swift */,
 				2628AD3425A257F10056A2AF /* ContentView.swift */,
 				2628AD3625A257F20056A2AF /* Assets.xcassets */,
 				2628AD3B25A257F20056A2AF /* Info.plist */,
@@ -128,6 +130,20 @@
 				2628AD5125A257F20056A2AF /* Info.plist */,
 			);
 			path = "APOD-VIPERUITests";
+			sourceTree = "<group>";
+		};
+		2628AD6025A259760056A2AF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2628AD6125A2598D0056A2AF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2628AD3525A257F10056A2AF /* ContentView.swift in Sources */,
-				2628AD3325A257F10056A2AF /* APOD_VIPERApp.swift in Sources */,
+				2628AD3325A257F10056A2AF /* APODApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
