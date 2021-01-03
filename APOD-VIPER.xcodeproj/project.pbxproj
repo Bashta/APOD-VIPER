@@ -96,12 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				2628AD6125A2598D0056A2AF /* Sources */,
-				2628AD6025A259760056A2AF /* Assets */,
 				2628AD3225A257F10056A2AF /* APODApp.swift */,
 				2628AD3425A257F10056A2AF /* ContentView.swift */,
-				2628AD3625A257F20056A2AF /* Assets.xcassets */,
-				2628AD3B25A257F20056A2AF /* Info.plist */,
-				2628AD3825A257F20056A2AF /* Preview Content */,
+				2628AD6025A259760056A2AF /* Assets */,
 			);
 			path = "APOD-VIPER";
 			sourceTree = "<group>";
@@ -135,6 +132,9 @@
 		2628AD6025A259760056A2AF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2628AD3825A257F20056A2AF /* Preview Content */,
+				2628AD3B25A257F20056A2AF /* Info.plist */,
+				2628AD3625A257F20056A2AF /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
